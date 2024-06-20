@@ -1,0 +1,10 @@
+version: '3.9'
+services:
+  postgres:
+    image: postgres:16.3-alpine3.20
+    environment:
+      POSTGRES_USER: public-project
+      POSTGRES_DB: public-project
+      POSTGRES_PASSWORD: public-project-password
+    ports:
+      - '15432:5432'

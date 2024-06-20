@@ -1,0 +1,10 @@
+<h1> SIGN UP BELOW</h1>
+<form method='POST'>
+    {% csrf_token %}
+    <p>EMAIL</p>
+    <input type='email' name='email'/>
+    <p>PASSWORD</p>
+    <input type='password' name='password'/>
+    <button type='submit' class = 'btn btn-success'>login</button>
+    <a href = 'register/'><button type='submit' class = 'btn btn-success'>registration</button></a>
+</form>

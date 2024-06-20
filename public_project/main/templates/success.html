@@ -1,0 +1,11 @@
+<!-- users/templates/users/success.html -->
+{% extends "base.html" %}
+
+{% block title %}Success{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>Registration Successful</h2>
+    <p>Your account has been created successfully. You can now <a href="{% url 'login' %}">login</a>.</p>
+</div>
+{% endblock %}

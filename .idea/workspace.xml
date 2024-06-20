@@ -1,18 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c6bebcf-942e-476a-a643-e44a7b28489b" name="Changes" comment="" />
+    <list default="true" id="1c6bebcf-942e-476a-a643-e44a7b28489b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_project/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_project/main/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_project/main/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_project/main/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_project/main/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_project/main/templates/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_project/main/templates/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_project/main/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_project/main/templates/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_project/main/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2hy2Dg0x3QQSGP1vZTs4ZjxVzpB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -22,8 +50,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -43,8 +76,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718551879348</updated>
-      <workItem from="1718551880950" duration="3000" />
+      <workItem from="1718551880950" duration="21564000" />
+      <workItem from="1718735603595" duration="6105000" />
+      <workItem from="1718807578757" duration="31287000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

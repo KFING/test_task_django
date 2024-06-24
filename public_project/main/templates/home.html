@@ -3,10 +3,15 @@
 <head>
     <meta charset="utf-8" />
     <title>profile</title>
+    <style>
+       body {
+        background: {{bg_color}} /* Цвет фона */
+       }
+  </style>
 </head>
 <body>
     <h1>hi user with email: {{ email }}</h1>
     <h2> false {{ false_num }} : true {{ true_num }}</h2>
-    <p>{{ true_false }} %</p>
+    <p>{{ false_result}}% : {{ true_result }}%</p>
 </body>
 </html>

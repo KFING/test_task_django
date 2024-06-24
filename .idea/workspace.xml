@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c6bebcf-942e-476a-a643-e44a7b28489b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public_project/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public_project/main/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public_project/main/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public_project/main/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public_project/main/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public_project/main/templates/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public_project/main/templates/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public_project/main/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public_project/main/templates/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public_project/main/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public_project/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_project/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/public_project/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_project/main/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/public_project/main/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_project/main/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/public_project/main/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_project/main/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/public_project/main/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_project/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/public_project/main/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -47,19 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,7 +69,11 @@
       <updated>1718551879348</updated>
       <workItem from="1718551880950" duration="21564000" />
       <workItem from="1718735603595" duration="6105000" />
-      <workItem from="1718807578757" duration="31287000" />
+      <workItem from="1718807578757" duration="32264000" />
+      <workItem from="1719087595495" duration="2134000" />
+      <workItem from="1719126382893" duration="1536000" />
+      <workItem from="1719128387322" duration="602000" />
+      <workItem from="1719235940369" duration="16727000" />
     </task>
     <servers />
   </component>

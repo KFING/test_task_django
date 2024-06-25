@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c6bebcf-942e-476a-a643-e44a7b28489b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public_project/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_project/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/public_project/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_project/main/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/public_project/main/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_project/main/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/public_project/main/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_project/main/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/public_project/main/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_project/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/public_project/main/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +45,36 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,7 +97,8 @@
       <workItem from="1719087595495" duration="2134000" />
       <workItem from="1719126382893" duration="1536000" />
       <workItem from="1719128387322" duration="602000" />
-      <workItem from="1719235940369" duration="16727000" />
+      <workItem from="1719235940369" duration="16999000" />
+      <workItem from="1719317340663" duration="1225000" />
     </task>
     <servers />
   </component>

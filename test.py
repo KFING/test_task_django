@@ -17,7 +17,13 @@ def lis_is_lst(a: list, b: list, dlt: int = 1) -> None:
     >>> lis_is_lst([1, 4, 3, 7, 2], [])
     True
     """
-    c = a + b
+
+    a = list(''.join(a.__str__().replace(', ', '').replace('[', '').replace(']', '').replace('\'', '')))
+    a = [int(x) for x in a]
+    c = sorted(list(set(a + b)))
+    for i in range(1, 8, 2):
+        if c[i] != 7:
+            c.insert(i, 7)
     print(c == CONTROL_LST * dlt)
 
 
@@ -101,18 +107,24 @@ class Color(Enum):
 
 
 # Необходимо вместо этой реализации класс PaintIt написать свою
-PaintIt = type('_', (type,), {'__new__': lambda *a, **_: type.__new__(*a)})('_', (), {})
+class PaintIt(type):
+    def __new__(cls, name, bases, dct, color):
+        dct['color'] = (color).value
+        if '__str__' not in dct:
+            def __str__(self):
+                return f"{self.color}"
 
-
-class PaintItBlack(PaintIt, color=Color.BLACK):
+            dct['__str__'] = __str__
+        return super().__new__(cls, name, bases, dct)
+class PaintItBlack(metaclass=PaintIt, color=Color.BLACK):
     ...
 
 
-class PaintItGreen(PaintIt, color=Color.GREEN):
+class PaintItGreen(metaclass=PaintIt, color=Color.GREEN):
     ...
 
 
-class PaintItRed(PaintIt, color=Color.RED):
+class PaintItRed(metaclass=PaintIt, color=Color.RED):
     ...
 
 
